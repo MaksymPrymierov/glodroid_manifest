@@ -6,4 +6,16 @@
   <extend-project name="platform/external/u-boot" revision="8a6ffeda97dfda5263ef40e1a4efb25b032ce04c" />
   <extend-project name="platform/packages/apps/TV" revision="3399fc08dec05bdaf6a9f3898951c290a4e724dc" />
 
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/google/bonito-kernel" />
+  <remove-project name="device/google/coral-kernel" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/cuttlefish_kernel" />
+  <remove-project name="device/google/cuttlefish_vmm" />
+  <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
+
 </manifest>
